@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Niconne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    // MDB Lightbox Init
+    $(function() {
+      var selectedClass = "";
+      $(".filter").click(function() {
+        selectedClass = $(this).attr("data-rel");
+        $("#gallery").fadeTo(100, 0.1);
+        $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function() {
+          $("." + selectedClass).fadeIn().addClass('animation');
+          $("#gallery").fadeTo(300, 1);
+        }, 300);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+
+
+  <!-- Name & Image Section -->
+  <section class="title" style="background-image: url('title_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:600px;">
+    <div class="g_s_1">
+      <img class="g  _1" src="ganeshji.png" alt="ganesh_image" height="10%" width="10%">
+    </div>
+    <div class="row groome_row">
+      <div class="col groome_pic">
+        <img class="img_groome" src="male.jpg" alt="bride" width="40%">
+      </div>
+      <div class="col groome_detail">
+        <p>Ramesh Kumar</p>
+      </div>
+    </div>
+    <div class="wedd_icon">
+      <img src="wedd.png" alt="wedd" width="10%">
+    </div>
+    <div class="row bride_row">
+      <div class="col bride_detail">
+        <p>Sita Raman</p>
+      </div>
+      <div class="col bride_pic">
+        <img class="img_bride" src="female.jpg" alt="bride" width="40%">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Bride_famliy_Section -->
+  <section class="fs_bride">
+    <h1 class="bride_side">Bridesmaids</h1>
+    <img src="border.png" alt="..." height="25%" width="25%">
+    <div class="row family_det">
+      <div class="col family_det">
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="female_demo.jpg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="female_demo.jpg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col family_det">
+        <div class="row">
+          <div class="col">
+            <img src="female_demo.jpg" class="family_mem" alt="" width="70%" height="70%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col family_det">
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="female_demo.jpg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="female_demo.jpg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Groom_Family_Section -->
+  <section class="fs_grome">
+    <h1 class="bride_side">Groomsmen</h1>
+    <img src="border.png" alt="..." height="25%" width="25%">
+    <div class="row family_det">
+      <div class="col family_det">
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="male_demo.jpeg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="male_demo.jpeg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col family_det">
+        <div class="row">
+          <div class="col">
+            <img src="male_demo.jpeg" class="family_mem" alt="" width="70%" height="70%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+      <div class="col family_det">
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="male_demo.jpeg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row family_det">
+          <div class="col family_det">
+            <img src="male_demo.jpeg" class="family_mem" alt="" width="50%" height="50%">
+            <p>Lorem ipsum</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Photo_gallery_section -->
+
+  <section class="title" style="background-image: url('second_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:650px;">
+
+    <h1 class="bride_side">Photo Gallery</h1>
+    <img src="border.png" alt="..."  width="25%">
+    <!-- Grid row -->
+    <div class="gallery" id="gallery">
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 2">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+  </section>
+
+</body>
+
+</html>
