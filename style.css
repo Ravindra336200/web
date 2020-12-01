@@ -1,6 +1,7 @@
 body{
   padding: 0;
   margin: 0;
+  background: rgb(2,0,36);
 
 }
 .g_s_1{
@@ -59,9 +60,39 @@ p{
 .gallry{
   text-align: center;
   padding: 7%;
+  align-items: center;
+  margin-bottom: 50px;
 }
 .pre_wedding
 {
   padding: 0 15%;
   margin-top: 50px;
+}
+.events{
+  text-align: center;
+  padding: 7% 15%;
+}
+.events_details{
+  font-family: 'Dancing Script', cursive;
+}
+.card{
+  text-align: center;
+  align-items: center;
+  padding: 5%;
+}
+.card-body{
+  margin-top: 20px;
+}
+.event_row{
+  text-align: center;
+  align-items: center;
+  margin: 2%;
+}
+.location_section{
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+#footer{
+  text-align: center;
 }

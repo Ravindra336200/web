@@ -12,9 +12,10 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2c1992ecea.js" crossorigin="anonymous"></script>
+
   <script type="text/javascript">
     // MDB Lightbox Init
-
   </script>
 </head>
 
@@ -138,7 +139,65 @@
 
   <!-- Photo_gallery_section -->
 
-  <section class="gallry" style="background-image: url('second_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:550px;">
+  <section class="events">
+
+    <h1 class="events_details">Events</h1>
+    <img src="border.png" alt="..." height="25%" width="25%">
+
+    <div class="row event_row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card_image" src="event_rings.png" alt="Card image cap" width="25%">
+          <div class="card-body">
+            <h3>Event Name</h3>
+            <p><i class="far fa-calendar-alt"></i> Sample Date</p>
+            <p><i class="far fa-clock"></i> Sample Time</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card_image" src="event_dance.png" alt="Card image cap" width="25%">
+          <div class="card-body">
+            <h3>Event Name</h3>
+            <p><i class="far fa-calendar-alt"></i> Sample Date</p>
+            <p><i class="far fa-clock"></i> Sample Time</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row event_row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card_image" src="event_cake.png" alt="Card image cap" width="25%">
+          <div class="card-body">
+            <h3>Event Name</h3>
+            <p><i class="far fa-calendar-alt"></i> Sample Date</p>
+            <p><i class="far fa-clock"></i> Sample Time</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img class="card_image" src="event_f.png" alt="Card image cap" width="25%">
+          <div class="card-body">
+            <h3>Event Name</h3>
+            <p><i class="far fa-calendar-alt"></i> Sample Date</p>
+            <p><i class="far fa-clock"></i> Sample Time</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Photo_gallery_section -->
+
+  <section class="gallry" style="background-image: url('second_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:950px;">
 
     <h1 class="bride_side">Photo Gallery</h1>
     <div id="carouselExampleControls" class="carousel slide pre_wedding" data-ride="carousel">
@@ -168,7 +227,46 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <div class="location_section">
+      <h1 class="bride_side">Event Location</h1>
+
+      <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="450px" height="300px" id="gmap_canvas" src="https://maps.google.com/maps?q=SIrsi%20Bagh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+            href="https://sites.google.com/view/maps-api-v2/mapv2"></a></div>
+        <style>
+
+          .mapouter {
+            text-align: center;
+            height: 300px;
+            width: 450px;
+            margin-top: 50px;
+            align-items: center;
+          }
+
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 300px;
+            width: 450px;
+            text-align: center;
+            align-items: center;
+          }
+        </style>
+      </div>
+    </div>
   </section>
+  <footer id="footer">
+
+
+        <i class="fab fa-facebook-f icon_b"></i>
+        <i class="fab fa-twitter icon_b"></i>
+        <i class="far fa-envelope icon_b"></i>
+        <i class="fab fa-instagram icon_b"></i>
+
+
+    <p>© Copyright 2020 NCGTech</p>
+
+  </footer>
 
 </body>
 
