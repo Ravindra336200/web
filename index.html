@@ -6,7 +6,7 @@
   <title>Wedding Invitation</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Niconne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Domine&family=Lobster&family=Tangerine:wght@700&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Niconne&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@
         <img class="img_groome" src="male.jpg" alt="bride" width="40%">
       </div>
       <div class="col groome_detail">
-        <p>Lorem ipsum</p>
+        <p style="position: relative; top: 130px;">Bride</p>
       </div>
     </div>
     <div class="wedd_icon">
@@ -41,7 +41,7 @@
     </div>
     <div class="row bride_row">
       <div class="col bride_detail">
-        <p>Lorem ipsum</p>
+        <p style="position: relative; top: -100px; left: -120px;"  >Groom</p>
       </div>
       <div class="col bride_pic">
         <img class="img_bride" src="female.jpg" alt="bride" width="40%">
@@ -152,7 +152,9 @@
             <h3>Event Name</h3>
             <p><i class="far fa-calendar-alt"></i> Sample Date</p>
             <p><i class="far fa-clock"></i> Sample Time</p>
-            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+            <a href="https://g.page/eurokidsmurlipura?share">
+            <button type="button" class="btn btn-outline-primary btn-sm"><i class="fas fa-map-marker-alt"></i> Sample Location</button>
+            </a>
           </div>
         </div>
       </div>
@@ -163,7 +165,9 @@
             <h3>Event Name</h3>
             <p><i class="far fa-calendar-alt"></i> Sample Date</p>
             <p><i class="far fa-clock"></i> Sample Time</p>
-            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+            <a href="https://g.page/eurokidsmurlipura?share">
+            <button type="button" class="btn btn-outline-success btn-sm"><i class="fas fa-map-marker-alt"></i> Sample Location</button>
+            </a>
           </div>
         </div>
       </div>
@@ -176,7 +180,9 @@
             <h3>Event Name</h3>
             <p><i class="far fa-calendar-alt"></i> Sample Date</p>
             <p><i class="far fa-clock"></i> Sample Time</p>
-            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+            <a href="https://g.page/eurokidsmurlipura?share">
+            <button type="button" class="btn btn-outline-danger btn-sm"><i class="fas fa-map-marker-alt"></i> Sample Location</button>
+          </a>
           </div>
         </div>
       </div>
@@ -187,7 +193,9 @@
             <h3>Event Name</h3>
             <p><i class="far fa-calendar-alt"></i> Sample Date</p>
             <p><i class="far fa-clock"></i> Sample Time</p>
-            <p><i class="fas fa-map-marker-alt"></i> Sample Location</p>
+            <a href="https://g.page/eurokidsmurlipura?share">
+            <button type="button" class="btn btn-outline-warning btn-sm"><i class="fas fa-map-marker-alt"></i> Sample Location</button>
+            </a>
           </div>
         </div>
       </div>
@@ -197,7 +205,7 @@
 
   <!-- Photo_gallery_section -->
 
-  <section class="gallry" style="background-image: url('second_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:950px;">
+  <section class="gallry" style="background-image: url('second_back.jpg');background-size: cover; width: 100%; padding-top:10px;height:600px;">
 
     <h1 class="bride_side">Photo Gallery</h1>
     <div id="carouselExampleControls" class="carousel slide pre_wedding" data-ride="carousel">
@@ -227,46 +235,16 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="location_section">
-      <h1 class="bride_side">Event Location</h1>
+    <footer id="footer">
+          <i class="fab fa-facebook-f icon_b"></i>
+          <i class="fab fa-twitter icon_b"></i>
+          <i class="far fa-envelope icon_b"></i>
+          <i class="fab fa-instagram icon_b"></i>
+      <p>© Copyright 2020 NCGTech</p>
 
-      <div class="mapouter">
-        <div class="gmap_canvas"><iframe width="450px" height="300px" id="gmap_canvas" src="https://maps.google.com/maps?q=SIrsi%20Bagh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-            href="https://sites.google.com/view/maps-api-v2/mapv2"></a></div>
-        <style>
-
-          .mapouter {
-            text-align: center;
-            height: 300px;
-            width: 450px;
-            margin-top: 50px;
-            align-items: center;
-          }
-
-          .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 300px;
-            width: 450px;
-            text-align: center;
-            align-items: center;
-          }
-        </style>
-      </div>
-    </div>
+    </footer>
   </section>
-  <footer id="footer">
 
-
-        <i class="fab fa-facebook-f icon_b"></i>
-        <i class="fab fa-twitter icon_b"></i>
-        <i class="far fa-envelope icon_b"></i>
-        <i class="fab fa-instagram icon_b"></i>
-
-
-    <p>© Copyright 2020 NCGTech</p>
-
-  </footer>
 
 </body>
 
